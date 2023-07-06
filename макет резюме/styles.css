@@ -1,0 +1,266 @@
+/* теги */
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+div {
+    font-size: 30px;
+}
+
+/* class */ 
+.info {
+    color: white;
+}
+
+header {
+    background-color: #008EB7;
+    color: white;
+    display:flex;
+    justify-content: space-around;
+}
+
+li{
+    background-color: white;
+    color: black;
+    width:100px;
+    font-size: 20px;
+    border-radius: 10px;
+}
+.mainText{
+    font-size: 40px;
+}
+
+.textH{
+    font-size: 24px;
+    margin-left: 40px;
+}
+.sms{
+    display: flex;
+    margin-top: 150px;
+}
+
+button{
+    height: fit-content;
+    margin-top: 25px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+li{
+    margin-right: 10px;
+}
+.writeMe{
+    margin-right: 10px;
+    font-size: 24px;
+}
+
+.block1{
+    display: flex;
+    justify-content: space-around;
+}
+.border{
+    border: 3px solid black;
+    border-radius: 50px;
+    padding: 50px;
+}
+
+p{
+    font-size: 20px;
+}
+
+.header{
+  margin-left: 50px;
+}
+
+.education{
+    margin-right: 100px;
+    background-color: #E8E8E8;
+    border-radius: 20px;
+    padding: 15px 50px;
+    height: fit-content;
+}
+
+.main_photo{
+    filter: drop-shadow(0px 0px  50px #6ddfff);
+}
+
+.time-line-box {
+  height: 100px; 
+  padding: 100px 0;
+  width: 100%;
+  
+  text-align: center;
+}
+
+.time-line-box .timeline {
+  list-style-type: none;
+  padding: 0;
+  text-align: center;
+}
+
+.time-line-box .timestamp {
+  margin: auto;
+  margin-bottom: 5px;
+  padding: 0px 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.time-line-box .status {
+  padding: 0px 10px;
+  display: flex;
+  justify-content: center;
+  border-top: 3px solid #000000;
+  position: relative;
+  transition: all 200ms ease-in;
+}
+.time-line-box .status span {
+  padding-top: 8px;
+}
+.time-line-box .status span:before {
+  content: '';
+  width: 12px;
+  height: 12px;
+  background-color: #000000;
+  border-radius: 12px;
+  border: 2px solid #000000;
+  position: absolute;
+  left: 50%;
+  top: 0%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  transition: all 200ms ease-in;
+}
+
+.swiper-container {
+  width: 95%; 
+  margin: auto;
+  overflow-y: auto;
+}
+.swiper-wrapper{
+  display: inline-flex;
+  flex-direction: row;
+  overflow-y:auto;
+  justify-content: center;
+}
+.swiper-slide {
+  text-align: center;
+  font-size: 12px;
+  width: 200px;
+  height: 100%;
+  position: relative;
+}
+.bg{
+  font-size: 20px;
+}
+
+footer{
+  width: 100%;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.size{
+  width: 550px;
+}
+
+.contact{
+  background-color: #008EB7;
+  color: white;
+  border-radius: 50px;
+  padding: 20px 30px;
+}
+
+.row{
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Styles for the pop-up container */
+.pop-up {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999;
+  }
+  
+  /* Styles for the content container */
+  .content {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 400px;
+  }
+  
+  /* Styles for the container div */
+  .container {
+    text-align: center;
+  }
+  
+  /* Styles for the dots container */
+  .dots {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the individual dot */
+  .dot {
+    width: 10px;
+    height: 10px;
+    background-color: #000;
+    border-radius: 50%;
+    margin: 0 5px;
+  }
+  
+  /* Styles for the close button */
+  .close {
+    display: inline-block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  /* Hover styles for the close button */
+  .close:hover {
+    color: #ff0000;
+  }
+  
+  /* Styles for the title */
+  .title {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the email subscription */
+  .subscribe {
+    margin-bottom: 10px;
+  }
+  
+  /* Styles for the email address */
+  .subscribe span {
+    color: #000;
+  }
+  
+  /* Hover styles for the email address */
+  .subscribe span:hover {
+    text-decoration: underline;
+  }
+  
